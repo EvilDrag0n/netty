@@ -21,6 +21,12 @@
         <lombok>1.16.20</lombok>
     </properties>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.3.RELEASE</version>
+    </parent>
+
     <dependencies>
         <!-- region spring-boot-starter -->
         <dependency>
